@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EVALUACION DISEÑO DE SITIOS WEB</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+    <script src="js/funciones.js"></script>
+  </head>
+  <body>
+    <div>
+      <div id="menu">
+        <ul>
+          <li id="optInicio"><a onclick="fntInicio()" href="#">Inicio</a></li>
+          <li><a onclick="fntGatos()" href="#">Gatos</a></li>
+          <li><a onclick="fntPerros()" href="#">Perros</a></li>
+          <li><a  onclick="fntErizos()" href="#">Erizos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h1 id="titulo">EVALUACIÓN DISEÑO DE SITIOS WEB</h1>
+      </div>
+    <div id="cuerpo">
+        <div id="contato">
+          <form action="" method="post">
+            <h3>Contáctanos</h2>
+              <table>
+              <tr>
+                <td>Nombre</td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="text" id="TxtNombre" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Apellido
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="text" id="TxtApellido" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Mensaje
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <textarea id="TxtMensaje"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Correo
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="text" id="TxtCorreo" />
+                </td>
+              </tr>
+            </table>
+            <div>
+              <input type="button" id="BtnEnviar" value="Enviar" onclick="btnEnviar()"/>
+            </div>
+          </form>
+        </div>
+        <div id="detalle"></div>
+      </div>
+    </div>
+  </body>
+  <script>
+    fntInicio();
+  </script>
+</html>
